@@ -26,6 +26,17 @@ namespace CSClass
             //실수
             Console.WriteLine(random.NextDouble());
             Console.WriteLine(random.NextDouble()*10);
+
+            List<int> list = new List<int>();
+            list.Add(97);
+            list.Add(19);
+            list.Add(13);
+            list.Add(7);
+
+            foreach(var item in list)
+            {
+                Console.WriteLine("Count : " + list.Count + "\titem : " + item);
+            }
         }
     }
 }
