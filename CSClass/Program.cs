@@ -13,6 +13,19 @@ namespace CSClass
             Car car = new Car();
             car.SetInTime();
             car.SetOutTime();
+
+            Random random = new Random();
+            
+            //정수
+            Console.WriteLine(random.Next(10, 100));
+            Console.WriteLine(random.Next(10, 100));
+            Console.WriteLine(random.Next(10, 100));
+            Console.WriteLine(random.Next(10, 100));
+            Console.WriteLine(random.Next(10, 100));
+
+            //실수
+            Console.WriteLine(random.NextDouble());
+            Console.WriteLine(random.NextDouble()*10);
         }
     }
 }
