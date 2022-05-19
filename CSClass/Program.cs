@@ -10,6 +10,9 @@ namespace CSClass
     {
         static void Main(string[] args)
         {
+            Car car = new Car();
+            car.SetInTime();
+            car.SetOutTime();
         }
     }
 }
