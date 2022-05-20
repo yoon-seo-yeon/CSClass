@@ -27,11 +27,16 @@ namespace CSClass
             Console.WriteLine(random.NextDouble());
             Console.WriteLine(random.NextDouble()*10);
 
+            /*
             List<int> list = new List<int>();
             list.Add(97);
             list.Add(19);
             list.Add(13);
             list.Add(7);
+            */
+
+            List<int> list = new List<int> { 97, 19, 13, 7 };
+            list.Remove(19);
 
             foreach(var item in list)
             {
