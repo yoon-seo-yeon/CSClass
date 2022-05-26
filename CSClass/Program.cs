@@ -83,7 +83,7 @@ namespace CSClass
             {
                 new Student() { name = "김다흰", grade = 2 },
                 new Student() { name = "김미나", grade = 1 },
-                new Student() { name = "김민정", grade = 3 },
+                new Student() { name = "김민정", grade = 2 },
                 new Student() { name = "김세린", grade = 1 },
                 new Student() { name = "김소연", grade = 1 },
                 new Student() { name = "김지수", grade = 2 },
