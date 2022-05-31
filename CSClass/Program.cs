@@ -137,6 +137,11 @@ namespace CSClass
             {
                 Console.WriteLine(item);
             }
+
+            Console.WriteLine("----------------");
+
+            Method method = new Method();
+            Console.WriteLine(method.Multi(52.1, 273));
         }
     }
 }
