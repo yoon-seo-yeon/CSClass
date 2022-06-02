@@ -16,5 +16,10 @@ namespace CSClass
             value = 777;
             Console.WriteLine("Sample() 정적 생성자 호출!!");
         }
+
+        ~Sample()
+        {
+            Console.WriteLine("샘플 객체의 소멸자가 호출되었습니다!!");
+        }
     }
 }
