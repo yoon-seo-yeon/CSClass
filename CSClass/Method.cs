@@ -5,7 +5,7 @@ namespace CSClass
     class Method
     {
         int instanceVariable = 10;
-        static int classVariable;
+        static int classVariable = 20;
 
         public double Multi(double v1, int v2)
         {
