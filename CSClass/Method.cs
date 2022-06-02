@@ -4,6 +4,9 @@ namespace CSClass
 {
     class Method
     {
+        int instanceVariable = 10;
+        static int classVariable;
+
         public double Multi(double v1, int v2)
         {
             return v1 * v2;
@@ -42,5 +45,23 @@ namespace CSClass
 
             return output;
         }
+
+        static public void some()
+        {
+            //Console.WriteLine(instanceVariable);
+            Console.WriteLine(classVariable);
+        }
+
+        public static int Abs(int input)
+        {
+            if(input < 0)
+            {
+                return -input;
+            }
+            else
+            {
+                return input;
+            }
+        } 
     }
 }

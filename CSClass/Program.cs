@@ -144,6 +144,9 @@ namespace CSClass
             Console.WriteLine(method.Multi(52.1, 273));
             Console.WriteLine(method.Sum(1, 100));
             Console.WriteLine(method.Multiply(1, 100));
+            Console.WriteLine(Method.Abs(-100));
+            Console.WriteLine(Method.Abs(100));
+            //Console.WriteLine(method.Abs(-100)); -> Java는 가능, C#은 불가능
         }
     }
 }
