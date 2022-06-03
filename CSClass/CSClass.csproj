@@ -47,6 +47,7 @@
     <Compile Include="Box1.cs" />
     <Compile Include="Box2.cs" />
     <Compile Include="Car.cs" />
+    <Compile Include="Fibonacci.cs" />
     <Compile Include="Food.cs" />
     <Compile Include="Method.cs" />
     <Compile Include="MyMath.cs" />
