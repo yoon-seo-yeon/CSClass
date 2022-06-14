@@ -233,6 +233,17 @@ namespace CSClass
                 item.Sleep();
                 //item.Bark();
                 ((Dog)item).Bark();
+
+                if(item is Dog)
+                {
+                    //item.Bark(); //안됨
+                    ((Dog)item).Bark();
+                } else if(item is Cat)
+                {
+                    Cat cat = (Cat)item;
+                    cat.Meow();
+                }
+
             }
         }
     }
