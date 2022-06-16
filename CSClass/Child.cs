@@ -11,6 +11,11 @@ namespace CSClass
             Console.WriteLine("자식의 메서드");
         }
 
+        public override void Method2()
+        {
+            Console.WriteLine("자식의 메서드");
+        }
+
         public Child() : base(10)
         {
             Console.WriteLine("Child():base(10)");
