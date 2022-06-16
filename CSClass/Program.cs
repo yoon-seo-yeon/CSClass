@@ -243,7 +243,24 @@ namespace CSClass
                     Cat cat = (Cat)item;
                     cat.Meow();
                 }
+            }
 
+            foreach (var item in animals)
+            {
+                item.Eat();
+                item.Sleep();
+
+                var dog = item as Dog;
+                if(dog != null)
+                {
+                    dog.Bark();
+                }
+
+                var cat = item as Cat;
+                if(cat != null)
+                {
+                    cat.Meow();
+                }
             }
         }
     }
