@@ -8,7 +8,7 @@ namespace CSClass
 {
     internal class Program
     {
-        private static int width;
+        private static int number = 10;
 
         static void Main(string[] args)
         {
@@ -275,6 +275,17 @@ namespace CSClass
 
             child.CountParent();
             Console.WriteLine("p counter : " + Parent.counter + " / c counter : " + Child.counter);
+
+            //섀도잉
+            int number = 20;
+            Console.WriteLine(number);
+
+            //하이딩
+            Child c = new Child();
+            Console.WriteLine(child.variable);
+            Console.WriteLine(((Parent)child).variable);
+            c.Method();
+            ((Parent)c).Method();
         }
     }
 }

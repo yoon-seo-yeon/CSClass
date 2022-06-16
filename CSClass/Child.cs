@@ -4,6 +4,13 @@ namespace CSClass
 {
     public class Child : Parent
     {
+        public string variable = "hiding";
+
+        public void Method()
+        {
+            Console.WriteLine("자식의 메서드");
+        }
+
         public Child() : base(10)
         {
             Console.WriteLine("Child():base(10)");
